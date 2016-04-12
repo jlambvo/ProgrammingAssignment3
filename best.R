@@ -1,4 +1,4 @@
-# best <- function(state,outcome){
+best <- function(state,outcome){
   
   data <- read.csv("outcome-of-care-measures.csv",colClasses = "character") #read in data
   data <- data[data$State==state,] #subset to defined state
